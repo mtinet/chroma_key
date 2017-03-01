@@ -59,8 +59,4 @@ function inputSliderValue() {
   seriously.go();  
 }
 
-function draw() {
-  background(255);
-  image(video, 0, 0, 1280, 960);
-}
 
