@@ -8,6 +8,7 @@ var r;
 var g;
 var b;
 
+var capture;
 
 function setup() {
   canvas = createCanvas(640, 480, WEBGL);
@@ -58,5 +59,8 @@ function inputSliderValue() {
   seriously.go();  
 }
 
-
+function draw() {
+  background(255);
+  image(video, 0, 0, 1280, 960);
+}
 
