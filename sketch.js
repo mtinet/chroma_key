@@ -32,7 +32,6 @@ function setup() {
   
   chroma.source = src;
   target.source = chroma;
-  target.size(1280, 960);
   
   console.log('red = ' + rslider.value() + ', green = ' + gslider.value() + ', blue = ' + bslider.value());
   
