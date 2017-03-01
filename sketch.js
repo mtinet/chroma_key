@@ -16,7 +16,7 @@ function setup() {
   video = createCapture(VIDEO);
   video.size(640, 480);
   video.id('p5video');
-  video.hide();
+//   video.hide();
   
   rslider = createSlider(0, 255, 3, 0.1);
   rslider.mouseReleased(inputSliderValue);
