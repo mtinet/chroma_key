@@ -13,7 +13,7 @@ function setup() {
   canvas = createCanvas(640, 480, WEBGL);
   canvas.id('p5canvas');
   video = createCapture(VIDEO);
-  video.size(640, 480);
+  video.size(1280, 960);
   video.id('p5video');
   video.hide();
   
